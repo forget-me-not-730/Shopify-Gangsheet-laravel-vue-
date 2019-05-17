@@ -1,0 +1,351 @@
+/* Abril Fatface */
+@font-face {
+    font-family: Abril Fatface;
+    src: url('./Abril Fatface/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Alfa Slab One */
+@font-face {
+    font-family: Alfa Slab One;
+    src: url('./Alfa Slab One/AlfaSlabOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bangers */
+@font-face {
+    font-family: Bangers;
+    src: url('./Bangers/Bangers-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bowlby One */
+@font-face {
+    font-family: Bowlby One;
+    src: url('./Bowlby One/BowlbyOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Courgette */
+@font-face {
+    font-family: Courgette;
+    src: url('./Courgette/Courgette-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Oswald */
+@font-face {
+    font-family: Oswald;
+    src: url('./Oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Oswald;
+    src: url('./Oswald/Oswald-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Graduate */
+@font-face {
+    font-family: Graduate;
+    src: url('./Graduate/Graduate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Agbalumo */
+@font-face {
+    font-family: Agbalumo;
+    src: url('./Agbalumo/Agbalumo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Anton */
+@font-face {
+    font-family: Anton;
+    src: url('./Anton/Anton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Kenia */
+@font-face {
+    font-family: Kenia;
+    src: url('./Kenia/Kenia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Roboto */
+@font-face {
+    font-family: Roboto;
+    src: url('./Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('./Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('./Roboto/Roboto-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('./Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Inter */
+@font-face {
+    font-family: Inter;
+    src: url('./Inter/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('./Inter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('./Inter/Inter-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Inter;
+    src: url('./Inter/Inter-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Lato */
+@font-face {
+    font-family: Lato;
+    src: url('./Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url('./Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url('./Lato/Lato-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Lato;
+    src: url('./Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Montserrat */
+@font-face {
+    font-family: Montserrat;
+    src: url('./Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('./Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('./Montserrat/Montserrat-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('./Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Neuton */
+@font-face {
+    font-family: Neuton;
+    src: url('./Neuton/Neuton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Neuton;
+    src: url('./Neuton/Neuton-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Chewy */
+@font-face {
+    font-family: Chewy;
+    src: url('./Chewy/Chewy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Overpass */
+@font-face {
+    font-family: Overpass;
+    src: url('./Overpass/Overpass-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Overpass;
+    src: url('./Overpass/Overpass-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Overpass;
+    src: url('./Overpass/Overpass-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Overpass;
+    src: url('./Overpass/Overpass-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* PT Sans */
+@font-face {
+    font-family: "PT Sans";
+    src: url('./PT Sans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url('./PT Sans/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url('./PT Sans/PTSans-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url('./PT Sans/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Raleway */
+@font-face {
+    font-family: Raleway;
+    src: url('./Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url('./Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Raleway;
+    src: url('./Raleway/Raleway-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Raleway;
+    src: url('./Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Ultra */
+@font-face {
+    font-family: Ultra;
+    src: url('./Ultra/Ultra-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Volkhov */
+@font-face {
+    font-family: Volkhov;
+    src: url('./Volkhov/Volkhov-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Volkhov;
+    src: url('./Volkhov/Volkhov-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Volkhov;
+    src: url('./Volkhov/Volkhov-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Volkhov;
+    src: url('./Volkhov/Volkhov-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Vollkorn */
+@font-face {
+    font-family: Vollkorn;
+    src: url('./Vollkorn/Vollkorn-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vollkorn;
+    src: url('./Vollkorn/Vollkorn-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vollkorn;
+    src: url('./Vollkorn/Vollkorn-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Vollkorn;
+    src: url('./Vollkorn/Vollkorn-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

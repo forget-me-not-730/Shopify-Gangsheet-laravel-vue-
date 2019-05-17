@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+:root {
+    --gs-btn-bg-color: #000000;
+    --gs-btn-fg-color: #ffffff;
+}
+
+#gang-sheet-builder-button {
+    font-family: Inter, sans-serif;
+    background-color: var(--gs-btn-bg-color);
+    color: var(--gs-btn-fg-color);
+    border: solid 1px var(--gs-btn-bg-color);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: min(100%, 400px);
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+#gang-sheet-builder-modal,
+#gang-sheet-preview-modal {
+    position: fixed;
+    z-index: 9999999999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%;
+
+    iframe {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        border: none;
+    }
+}
+
+#gang-sheet-builder-modal {
+    background-color: white;
+
+    background-image: url("https://app.dripappsserver.com/assets/spinner.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gang-sheet-preview-modal {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .gs-preview-container {
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        height: 100%;
+        max-height: 800px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0.5rem;
+        outline: solid 100000px #00000034;
+        overflow: hidden;
+
+        .gs-preview-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+            height: 50px;
+            border-bottom: solid 1px #8080807f;
+            position: relative;
+            z-index: 2;
+
+            h4 {
+                font-size: 18px;
+                font-weight: bold;
+                font-family: Oswald, serif;
+            }
+
+            #gs-preview-close {
+                border-radius: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                color: darkred;
+                flex-shrink: 0;
+                cursor: pointer;
+            }
+        }
+
+        .gs-preview-body {
+            flex: 1;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        iframe {
+            border: none;
+        }
+    }
+}
+
+.gs_links {
+    display: flex;
+    font-size: 0.85rem;
+    white-space: nowrap;
+
+    a {
+        display: block;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    a.gs-design-preview {
+        padding-right: 0.5rem;
+        border-right: solid 1px #8080807f;
+    }
+
+    a.gs-design-edit {
+        padding-left: 0.5rem;
+    }
+
+    a.gs-design-download {
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        border-left: solid 1px #8080807f;
+    }
+}
+
+img.gs-design-thumbnail {
+    border: solid 1px #8080807f!important;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}

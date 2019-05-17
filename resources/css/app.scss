@@ -1,0 +1,87 @@
+@import '@mdi/font/css/materialdesignicons.css';
+// @import "fonts.scss";
+// @import "./tooltip.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    :root {
+        --slider-connect-bg: #007a5c
+    }
+
+    html,
+    body,
+    #app {
+        height: 1px;
+        min-height: 100%;
+    }
+
+    input[type=number] {
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+
+        &.appearance-none {
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                -moz-appearance: textfield;
+                margin: 0;
+                appearance: none;
+            }
+        }
+    }
+
+}
+
+@layer base {
+    th {
+        @apply px-2 md:px-4 py-2 text-start font-medium text-gray-500 uppercase
+    }
+}
+
+@layer components {
+    .btn-danger {
+        @apply flex items-center px-4 py-2 bg-red-600 border border-transparent rounded-full font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition ease-in-out duration-150 disabled:bg-red-400
+    }
+
+    .btn-primary {
+        @apply flex items-center justify-center px-4 py-2 bg-primary border border-transparent rounded-full text-xs text-white uppercase tracking-widest hover:bg-primary focus:bg-primary active:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition ease-in-out duration-150 disabled:bg-green-200
+    }
+
+    .btn-secondary {
+        @apply border hover:bg-gray-50 px-4 transition-all bg-white hover:border-gray-300 rounded-full disabled:text-gray-400 flex items-center justify-center relative;
+
+        &:disabled {
+            background-color: rgba(0, 0, 0, .1);
+        }
+    }
+
+    .inp-no-style {
+        @apply block border-0 bg-transparent placeholder:text-gray-400 text-sm focus:ring-0 sm:leading-6;
+    }
+
+    .inp-outline {
+        @apply flex items-center border rounded border-gray-300 text-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-20;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0003;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+}

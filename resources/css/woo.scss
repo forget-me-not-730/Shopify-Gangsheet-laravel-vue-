@@ -1,0 +1,87 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css";
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import "./tooltip.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+
+    html,
+    body,
+    #app {
+        height: 1px;
+        min-height: 100%;
+    }
+
+    #woo-gang-sheet-app {
+        height: 1px;
+        font-family: Inter, sans-serif;
+        min-height: calc(100vh - 110px);
+    }
+
+    input[type=number] {
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+
+        &.appearance-none {
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                -moz-appearance: textfield;
+                margin: 0;
+                appearance: none;
+            }
+        }
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center px-4 py-2 bg-white border rounded text-xs tracking-widest focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-150 disabled:opacity-25
+    }
+
+    .btn-default {
+        @apply btn
+    }
+
+    .btn-outline {
+        @apply btn border-gray-500 hover:bg-gray-500 hover:text-white
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center px-4 py-2 bg-blue-500 border border-transparent rounded text-xs text-white uppercase tracking-widest hover:bg-primary focus:bg-primary active:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition ease-in-out duration-150 disabled:opacity-25 disabled:cursor-not-allowed
+    }
+
+    .btn-primary-outline {
+        @apply btn border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white
+    }
+
+    .inp-default {
+        @apply block w-full min-w-[50px] focus:ring-1 focus:ring-opacity-20 pr-0 rounded border shadow-sm;
+
+        padding-top: 0.1rem !important;
+        padding-bottom: 0.1rem !important;
+    }
+
+    .inp-outline {
+        @apply flex items-center border rounded border-gray-300 text-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-20;
+    }
+
+    .inp-no-style {
+        @apply block border-0 bg-transparent text-gray-900 placeholder:text-gray-400 focus:ring-0 focus:outline-0 focus:border-0 sm:text-sm sm:leading-6;
+        border: 0 !important;
+        outline: 0 !important;
+
+        &:focus {
+            border: 0 !important;
+            outline: 0 !important;
+            box-shadow: none !important;
+        }
+    }
+}
